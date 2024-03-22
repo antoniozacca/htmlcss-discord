@@ -121,7 +121,6 @@ h1{
 .bg-gray{
     background-color: rgb(230, 223, 223);
     padding: 20px 0;
-    height: 1000px;
 }
 .col-main-coach{
     width: 60%;
@@ -142,7 +141,7 @@ h1{
     background-image: url(../img/item4-big.svg) ;
     background-size: cover;
     width: 80%;
-    height: 500px;
+    height: 1000px;
     margin: 0 auto;
 }
 .title-container-main3{
