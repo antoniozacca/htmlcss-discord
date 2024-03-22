@@ -83,7 +83,6 @@ h1{
 /* fine presentazione */
 /* inizio parte centrale */
 .container-main2{
-    background-image: url(../img/wave.svg);
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
@@ -140,7 +139,7 @@ h1{
 .bg-container-main3{
     background-image: url(../img/item4-big.svg) ;
     background-size: cover;
-    width: 80%;
+    width: 1100px;
     height: 1000px;
     margin: 0 auto;
 }
@@ -241,4 +240,10 @@ h1{
 }
 .color-blue{
     color: blue;
+}
+.background-wave{
+    background-image: url(../img/wave.svg);
+    height: 500px;
+    width: 500px;
+
 }
