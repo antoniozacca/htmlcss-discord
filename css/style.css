@@ -98,7 +98,6 @@ h1{
 }
 .col-main3{
     width: 30%;
-    height: 500px;
     margin: 50px;
 
 }
@@ -111,19 +110,51 @@ h1{
     margin-top: 20px;
     font-size: 25px;
 }
-/*  */
-.bg-gray{
-    background-color: rgb(134, 126, 126);
-    padding: 20px 0;
+.col-main-voice-connected{
+    width: 60%;
+    height: 500px;
+    background-image: url(../img/item2.svg);
+    background-size: cover;
+    margin-left: 15px;
 }
+
+.bg-gray{
+    background-color: rgb(230, 223, 223);
+    padding: 20px 0;
+    height: 1000px;
+}
+.col-main-coach{
+    width: 60%;
+    height: 500px;
+    background-image: url(../img/item3.svg);
+    background-size: cover;
+    margin-right: 18px;
+}
+/*  */
 .container-main3{
     max-width: 1180px;
     height: 400px;
-    background-color: green;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 1px dashed black;
     margin: 0 auto;
+}
+.bg-container-main3{
+    background-image: url(../img/item4-big.svg) ;
+    background-size: cover;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+.title-container-main3{
+    font-weight: bold;
+    font-size: 50px;
+}
+.start-adventure{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
 }
 .bg-black{
     background-color: black;
