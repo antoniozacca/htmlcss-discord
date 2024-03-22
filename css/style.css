@@ -119,7 +119,7 @@ h1{
 }
 
 .bg-gray{
-    background-color: rgb(230, 223, 223);
+    background-color: #f6f6f6;
     padding: 20px 0;
 }
 .col-main-coach{
@@ -137,10 +137,7 @@ h1{
     margin: 0 auto;
 }
 .bg-container-main3{
-    background-image: url(../img/item4-big.svg) ;
     background-size: cover;
-    width: 1100px;
-    height: 1000px;
     margin: 0 auto;
 }
 .title-container-main3{
@@ -240,4 +237,12 @@ h1{
 }
 .color-blue{
     color: blue;
+}
+.background-wave{
+    background-image: url(../img/wave.svg);
+    height: 100px;
+    opacity: 0.04;
+}
+.last-img{
+    margin-left: 60px;
 }
