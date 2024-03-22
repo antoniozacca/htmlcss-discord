@@ -83,6 +83,7 @@ h1{
 /* fine presentazione */
 /* inizio parte centrale */
 .container-main2{
+    background-image: url(../img/wave.svg);
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
@@ -199,6 +200,7 @@ h1{
 .img-social{
     display: flex;
     gap: 5px;
+    padding-top: 10px;
 }
 .social{
     height: 30px;
