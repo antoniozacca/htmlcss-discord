@@ -241,9 +241,3 @@ h1{
 .color-blue{
     color: blue;
 }
-.background-wave{
-    background-image: url(../img/wave.svg);
-    height: 500px;
-    width: 500px;
-
-}
