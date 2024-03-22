@@ -132,7 +132,6 @@ h1{
 /*  */
 .container-main3{
     max-width: 1180px;
-    height: 400px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto;
@@ -151,9 +150,20 @@ h1{
 .start-adventure{
     font-weight: bold;
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 10px;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.download-mac{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #3161e0;
+    color: white;
 }
 .bg-black{
     background-color: black;
@@ -164,32 +174,57 @@ h1{
     display: flex;
     max-width: 1180px;
     margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 18px;
     
 }
 .col-main-left{
     height: 350px;
-    background-color: rgb(204, 64, 87);
+    background-color: black;
+    color: blue;
+    font-size: 20px;
     width: 30%;
-    border: 1px dashed black;
     
+    
+}
+.dim-img{
+    margin-top: 20px;
+    height: 15px;
+    width: 20px;
+}
+.color-white{
+    color: white;
+}
+.img-social{
+    display: flex;
+    gap: 5px;
+}
+.social{
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
     
 }
 .col-main-right{
     height: 350px;
-    background-color: rgb(0, 131, 113);
+    background-color: black;
     width: 70%;
     display: flex;
+    padding-left: 30px;
     
 }
 
 .col-main5{
     width: calc(100% / 4);
     height: 350px;
-    border: 1px dashed white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 }
 .container-main5{
-    background-color: aqua;
+    background-color: black;
     max-width: 1180px;
     height: 50px;
     margin: 0 auto;
@@ -198,7 +233,10 @@ h1{
     padding-top: 10px;
 }
 .footer-button{
-    background-color: rgb(204, 64, 87);
-    padding: 5px;
-    border: 1px dashed black;
+    background-color: gray;
+    padding: 8px;
+    border-radius: 15px;
+}
+.color-blue{
+    color: blue;
 }
